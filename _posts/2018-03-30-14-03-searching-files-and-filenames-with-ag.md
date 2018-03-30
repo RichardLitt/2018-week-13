@@ -9,7 +9,8 @@ I use a folder called `projects` for holding my GTD projects, in Markdown files.
 
 ```sh
 function aga() {
-  ag -i $1 && ag -ig $1
+  ag -i $1
+  ag -ig $1
 }
 ```
 
